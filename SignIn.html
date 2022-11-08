@@ -8,7 +8,25 @@
     <title>Signin page</title>
 </head>
 <body>
-    
-    
+    <div class="container">
+        <img src="./Images/user-login-icon-14.png" class="Image">
+        <h2 class="heading">Login Here</h2>
+        <form action="#">
+            <p>Username</p>
+            <input type="text">
+            <p>Password</p>
+            <input type="password">
+            <br>
+            <input type="submit" value="Login" onclick="login()">
+            <a href="./RegisterForm.html">Don't have an account</a>
+            
+        </form>
+    </div>
+    <script>
+        function login()
+        {
+            window.open("index.html");
+        }
+    </script>
 </body>
 </html>
