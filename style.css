@@ -5,12 +5,13 @@
     background-color: cornsilk;
 
 }
-.div0 .span1{
-    font-size:24px;
+.div0 #span1{
     font-weight: 500;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
+    
 }
 .div1{
     width: 100%;
@@ -31,14 +32,17 @@
     margin-left: 30%;
     color: aliceblue;
     background-color: black;
+   
 }
 .div2{
     width: 500px;
     height: 250px;
     background-color: rgb(237, 245, 246);
     margin-top: 30px;
-   margin-left: 25%;
+   margin-left: 30%;
    border: 2px solid black;
+   border-radius: 2%;
+position:absolute;
 }
 .span1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -53,6 +57,7 @@
     color: aliceblue;
     background-color: black;
     margin-bottom: 30px;
+   
 }
 #span1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,6 +66,7 @@
     justify-content: center;
     margin-top: 35px;
     font-size: 22px;
+    border-radius: 50%;
 }
 .span3{
     display: flex;
@@ -68,35 +74,55 @@
     align-items: center;
     padding-top: 10px;
     font-size: 20px;
+    border-radius: 50%;
 }
 .Signin{
   
     height: 50px;
     width: 50px;
-
     float: right;
     border-radius: 50%;
     margin-right: 15%;
+    margin-top: 5px;
 }
 .Register{
     height: 50px;
     width: 50px;
-    
-border-radius: 50%;
-    margin-left:60%;
-   
+    border-radius: 50%;
+    margin-left:67%;
+    margin-top: 5px;
+   position: absolute;
     
 }
 .Img1{
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
+   
 }
 .Img2{
     max-width: 100%;
     max-height: 100%;
     border-radius: 50%;
 }
+.ulogin{
+position: absolute;
+font-weight: 500;
+text-align: center;
+margin-top: 15px;
+margin-left: 5px;
+background-color:darkgoldenrod ;
+}
+.uRegister{
+position: absolute;
+font-weight: 500;
+text-align: center;
+margin-top: 15px;
+margin-left: 5px;
+background-color:darkgoldenrod ;
+
+}
+
 
 
 
