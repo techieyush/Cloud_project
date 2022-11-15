@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./SignIn.css">
-    <title>Signin page</title>
+    <title>Login</title>
 </head>
 <body>
     <div class="container">
@@ -18,7 +18,8 @@
             <input type="password">
             <br>
             <input type="submit" value="Login" onclick="login()">
-            <a href="./RegisterForm.html">Don't have an account</a>
+           <a href=""class="Newaccount"> <p  onclick="RegistrationForm()">Don't have an account</p>
+           </a>
             
         </form>
     </div>
@@ -27,6 +28,12 @@
         {
             window.open("index.html");
         }
+        function RegistrationForm()
+        {
+            window.open("RegisterForm.html");
+        }
+
     </script>
+    
 </body>
 </html>
